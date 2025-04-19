@@ -1,0 +1,34 @@
+.input-from-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-from-user input {
+  width: 15%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #f7e1d7;
+}
+
+.input-from-user input:focus {
+  border-color: #9d8189;
+  outline: none;
+}
+
+.input-from-user button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #7d4f50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-from-user button:hover {
+  background-color: #523435;
+}
